@@ -82,7 +82,7 @@ transition:.5s;
 }
 .na ul li a:hover{
 border-radius:100px;
-background:#ff4d73;
+background:linear-gradient(to bottom, green, red, blue);
 padding:5px;
 color:#fff;
 }
@@ -136,7 +136,7 @@ padding-left:75px;
 padding-right:75px;
 }
 #about_us table tr td:hover{
-background:yellow;
+background:linear-gradient(to right, #ff105f,#ffad06);
 color:#fff;
 }
 #about_us img{
@@ -227,8 +227,9 @@ text-align:center;
 transition:.5s;
 }
 .tool a:hover{
-background:blue;
+background:linear-gradient(to right, green, red, blue);
 color:#fff;
+border-color:none;
 }
 /*--contecrt--*/
 #contect{
@@ -244,7 +245,7 @@ border-radius:100px;
 transition:.5s;
 }
 .io:hover{
-background:green;
+background:linear-gradient(to right, green, red, blue);
 color:#fff;
 }
 #contect h2{
